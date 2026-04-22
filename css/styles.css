@@ -108,11 +108,6 @@ margin: 0 auto;
     align-items: center;
 }
 
-.contacts{
-    display: flex;
-   align-content: flex-end;
-}
-
 .aligner {
       display: flex;
   align-items: center;
@@ -146,9 +141,9 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
-max-width: 600px;
-margin: 0 auto 48px;
-padding: 0 15px;
+    max-width: 496px;
+    margin: 0 auto 48px;
+    padding: 0;
 }
 
 .main-page-button {
@@ -212,22 +207,37 @@ padding: 0 15px;
     overflow: hidden;
 }
 
+.team-section-title {
+   font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+ margin-bottom: 72px;
+    padding-top: 0
+}
+
 .our-team-wrapper {
     background: #f4f4fd;
-    padding-bottom: 120px;
+        padding: 120px 0;
     text-align: center;
 }
 
 .our-team-list {
-  display: flex;
-  gap: 24px;
+    display: flex;
+    gap: 24px;
+    margin-top: 0
 }
 
 .our-team-item {
     background-color: #fff;
     border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.team-bottom-text {
+padding: 32px 0;
 }
 
 .team-name {
@@ -238,7 +248,8 @@ color: #2e2f42;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
-margin-top: 32px;
+    margin-top: 0;
+    margin-bottom: 8px;
 }
 
 .team-description {
@@ -250,15 +261,14 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-.section-title {
-    font-weight: 700;
+.portfolio-section-title {
+font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
     margin-bottom: 72px;
-    padding-top: 120px;
 }
 
 .portfolio-mini-title {
@@ -267,7 +277,8 @@ color: #434455;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin: 32px 16px 8px;
+    margin: 0 0 8px 0;
+    padding: 0;
 }
 
 .portfolio-list {
@@ -283,17 +294,18 @@ color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin: 0 16px;
+    margin: 0;
     text-align: left;
-    padding-bottom: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .our-portfolio-wrapper {
-    padding-bottom: 120px;
+padding: 120px 0;
 }
 
 .bottom-text {
-    padding: 1px 16px 32px;
+    padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
