@@ -329,11 +329,13 @@ padding: 120px 0;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block; /* или block */
+    margin-bottom: 16px;
 }
 
 .ending-text {
   max-width: 264px;
-  margin-top: 16px;
+  margin-top: 0px;
   text-align: left;
 
 }
